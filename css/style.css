@@ -28,6 +28,7 @@ body {
     background-image: url(..//images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-color: #d6f1f39d;
+    height: 100vh;
     /* padding: 0px 0 50px; */
 }
 
@@ -57,7 +58,7 @@ body {
 
 .card p {
     color: hsl(224, 23%, 55%);
-    line-height:1.6rem;
+    line-height: 1.6rem;
     padding: 0 1rem;
 }
 
@@ -91,7 +92,7 @@ body {
 }
 
 .plan>a:hover {
-    color:#766CF1;
+    color: #766CF1;
     text-decoration: none;
 }
 
@@ -122,7 +123,7 @@ button {
 }
 
 .proceed-payment:hover {
-    background-color:#766CF1;
+    background-color: #766CF1;
     transition: all 0.4s;
 }
 
@@ -138,7 +139,7 @@ button {
 }
 
 .cancel-order:hover {
-   color:  hsl(223, 47%, 23%);
+    color: hsl(223, 47%, 23%);
     transition: all 0.4s;
 }
 
